@@ -7,14 +7,16 @@
 </head>
 <body>
     <script>
-        let calificacion=parseInt(prompt("Ingrese la calificacion: "));
-        if(calificacion>=90){
-            console.log("Aprobado con Honores: ");
-             }else if(calificacion>=70){
-                console.log("Aprobado");
-             }else{
-                console.log("Reprobado" );
-             }
+       let calificacion=parseInt(prompt("Ingrese su calificacion:"));
+       if(calificacion<0 || calificacion > 100) {
+        console.log("NUMERO FUERA DE RANGO");}
+                 else if(calificacion>=90){
+                    conosole.log("Aprobado con honores");
+                 }else if(calificacion>=70){
+                    console.log("Aprobado");
+                 }else{
+                    console.log("Reprobado")
+                 }
 
              
         
