@@ -99,5 +99,9 @@ label {
         width: 100%;
     }
 }
-
+@media (max-width: 600px){
+    h1{
+        font-size: 20px;
+    }
+}
 
