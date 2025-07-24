@@ -68,4 +68,24 @@ label {
 
 
 }
+.sesion1{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    }
+    .Sesion2{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+@media only screen and (max-width:600px){
+    .sesion1{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .Sesion2{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
 
