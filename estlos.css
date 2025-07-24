@@ -99,10 +99,20 @@ section h2 {
 .sesion2 ul {
     list-style: disc inside;
 }
+.sesion3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+}
+
+.sesion3 ul {
+    list-style: disc inside;
+}
+
 
 /* METAS */
 ol {
-    padding-left: 20px;
+    padding-left: 35px;
 }
 
 
