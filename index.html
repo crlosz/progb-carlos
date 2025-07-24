@@ -1,164 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
-<head> <link rel="stylesheet" href="estlos.css">
-
+<html lang="es">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera pagina</title>
-    
+    <title>Mi primera página</title>
+    <link rel="stylesheet" href="estlos.css">
 </head>
 <body>
-    
     <header>
-        <h1>Bienvenidos a mi pagina web</h1>
-
+        <h1>Bienvenidos a mi página web</h1>
     </header>
+
     <nav>
         <ul>
             <li><a href="#home">Inicio</a></li>
             <li><a href="#acerca">Acerca de</a></li>
             <li><a href="#hobbies">Mis hobbies</a></li>
             <li><a href="#metas">Mis metas</a></li>
-            <li><a href="#Acxtividades">Actividades Pendientes</a></li>
-            <li><a href="#contact">Contacto</a></li>
+            <li><a href="#actividades">Actividades Pendientes</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
 
-    <nav>  
-        
-
-        
-    
-
-    <section>
-
-        <h2>Acerca de mi</h2>
+    <section id="acerca">
+        <h2>Acerca de mí</h2>
         <div class="sesion1">
-
-            <div> 
-            <img src="img/OIP.webp" border="5px" width="100px" alt="Formato">
+            <div>
+                <img src="img/OIP.webp" width="100" alt="Foto miaxd">
+            </div>
+            <div>
+                <p>Mi nombre es <span class="nombre">Carlos Andrés Vásquez</span></p>
+                <p>// Tengo 19 años // Futuro ingeniero en proceso...</p>
+            </div>
         </div>
+    </section>
+
+    <section id="hobbies">
+        <h2>Mis hobbies</h2>
+        <div class="sesion2">
+            <ul>
+                <li>Videojuegos</li>
+                <li>Leer libros</li>
+                <li>Ver videos en YouTube</li>
+            </ul>
+            <div>
+                <img src="img/hobbies.jpg" style="margin-top: -25px;" width="230" alt="fotodeejemplos">
+            </div>
+        </div>
+    </section>
+
+    <section id="metas">
+        <h2>Mis metas</h2>
+        <ol>
+            <li>Ayudar a mi mamá</li>
+            <li>Hablar más idiomas</li>
+            <li>Estudiar varias carreras</li>
+        </ol>
         <div>
-            <blockquote><p>Mi nombres es <h1 stile="font-size: 30px">Carlos Andres Vasquez</h1> <p style="margin: 5px 0;">// tengo 19 años //futuro ingeniero en proceso...<br> </p></blockquote>
-         </div>
-
-
+            <img src="img/business-3695073_1280.jpg" style="margin-top: -30px;" width="210" alt="fotodeejemplo2">
         </div>
-
     </section>
 
-
-    
-   <section>
-    <h3>Mis hobbies</h3>
-    
-
-    </div Class="Sesion2">
-
-    
-    <div>Videojuegos</div>
-    <div>leer libros</div>
-    <div>Ver videos en youtube</div>
-
-</div>
-</section>
-
-
-
-<section>
-<h3>Mis metas</h3>
-<ol>
-    <li>ayudar a mi mamá</li>
-    <li>hablar mas idiomas</li>
-    <li>Estudiar varias carreras </li>
-</ol>
-
-</section>
-    
-
-
-
-<hr>
-
-   
- <section>
-<h2>Actividades pendientes</h2>
-
-   
-<table border="2px" width="80%">
-     <tr>
-        <th>LUNES</th>
-        <th>Martes</th>
-        <th>Miercoles</th>
-        <th>Jueves</th>
-        <th>Viernes</th>
-        <th>Sabado</th>
-        <th>Domingo</th>
-    </tr>
-
-
-   </section>
-    <tr>
-        <td>Ir a la biblioteca</td>
-        <td>Escuchar musica</td>
-        <td>ir a cine</td>
-        <td>Ciclismo</td>
-        <td>Baloncesto</td>
-        <td>Practicar ingles</td>
-        <td>Jugar un videojuego</td>
-    
-    </tr>
-
-
- </section>
-
-</table>
-
-
-<hr>
-
-
-    <section>
-
-<h2>Formulario de Contacto</h2>
-
-
-    <form action="">
-        <label name="nombre">Digite su nombre:</label>
-        <input type="text" name="nombre" required=""><br>
-         <label name="documento">Digite su documento:</label>
-         <input type="number" name="documento"required=""><br>
-        <label name="email">Digite su correo electronico:</label>
-         <input type="email" name="correo" required=""> <br>
-         <label name="contraseña">Digite su contraseña:</label>
-         <input type="password"name="contraseña" required=""><br>
-         
-         <select>
-            <option disabled="">Selecciona ciudad</option>
-            <option>Valledupar</option>
-            
-            <option>Bogota</option>
-            <option>Barranquilla</option>
-            <option>Medellin</option>s
-
-
+    <section id="actividades">
+        <h2>Actividades pendientes</h2>
+        <table>
+            <tr>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sábado</th>
+                <th>Domingo</th>
+            </tr>
+            <tr>
+                <td>Ir a la biblioteca</td>
+                <td>Escuchar música</td>
+                <td>Ir al cine</td>
+                <td>Ciclismo</td>
+                <td>Baloncesto</td>
+                <td>Practicar inglés</td>
+                <td>Jugar un videojuego</td>
+            </tr>
+        </table>
     </section>
-</select>
-<input type="submit" name="Enviar">
 
-    </form>
+    <section id="contacto">
+        <h2>Formulario de Contacto</h2>
+        <form>
+            <label>Digite su nombre:</label>
+            <input type="text" name="nombre" required><br>
 
+            <label>Digite su documento:</label>
+            <input type="number" name="documento" required><br>
 
-</section>
+            <label>Digite su correo electrónico:</label>
+            <input type="email" name="correo" required><br>
 
+            <label>Digite su contraseña:</label>
+            <input type="password" name="contraseña" required><br>
 
+            <label>Ciudad:</label>
+            <select required>
+                <option disabled selected>Selecciona ciudad</option>
+                <option>Valledupar</option>
+                <option>Bogotá</option>
+                <option>Barranquilla</option>
+                <option>Medellín</option>
+            </select><br>
 
-
-
-
-
-
-
-
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
 </body>
 </html>
