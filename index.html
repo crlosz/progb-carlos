@@ -1,119 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera página</title>
-    <link rel="stylesheet" href="estlos.css">
+  <meta charset="UTF-8">
+  <title>Tienda CarlsFer</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script defer src="carrito1.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Bienvenidos a mi página web</h1>
-    </header>
+  <header id="encabezado">
+    <h1>Tienda el miembro viril de Andres</h1>
+    <div id="carrito-icono">🛒 Carrito: <span id="contador-carrito">0</span></div>
+  </header>
 
-    <nav>
-        <ul>
-            <li><a href="#home">Inicio</a></li>
-            <li><a href="#acerca">Acerca de</a></li>
-            <li><a href="#hobbies">Mis hobbies</a></li>
-            <li><a href="#metas">Mis metas</a></li>
-            <li><a href="#actividades">Actividades Pendientes</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
+  <nav id="nav-principal">
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Oferta</a></li>
+      <li><a href="#">Contacto</a></li>
+      <li><a href="#">Nosotros</a></li>
+    </ul>
+  </nav>
 
-    <section id="acerca">
-        <h2>Acerca de mí</h2>
-        <div class="sesion1">
-            <div>
-                <img src="img/OIP.webp" width="100" alt="Foto miaxd">
-            </div>
-            <div>
-                <p>Mi nombre es <span class="nombre">Carlos Andrés Vásquez</span></p>
-                <p>// Tengo 19 años // Futuro ingeniero en proceso...</p>
-            </div>
+  <main>
+    <section>
+      <h2>ZZZZ hermano me voy a suicidar</h2>
+      <div class="grid-tarjetas">
+
+        <div class="tarjeta">
+          <img src="https://i.pinimg.com/originals/2e/54/07/2e54078da7c560599e55ed109fa6663a.jpg" alt="pene">
+          <h3>Inferno Veloce</h3>
+          <p class="descripcion">que tiene cff xd </p>
+          <p class="precio">mi peneuwu</p>
+          <button class="btn-carrito">Añadir al carrito</button>
         </div>
-    </section>
 
-    <section id="hobbies">
-        <h2>Mis hobbies</h2>
-        <div class="sesion2">
-            <ul>
-                <li>Videojuegos</li>
-                <li>Leer libros</li>
-                <li>Ver videos en YouTube</li>
-            </ul>
-            <div>
-                <img src="img/hobbies.jpg" style="margin-left: -20px;" width="190" alt="fotodeejemplos">
-            </div>
+        <div class="tarjeta">
+          <img src="https://i.pinimg.com/236x/db/27/6c/db276cf1f47aa2842106983d2a81fe27.jpg" alt="slsj">
+          <h3>burro</h3>
+          <p class="descripcion">Dios es gay</p>
+          <p class="precio">cjdfndsf</p>
+          <button class="btn-carrito">Añadir al carrito</button>
         </div>
-    </section>
 
-    <section id="metas">
-        <h2>Mis metas</h2>
-        <div class="sesion3">
-        <ol>
-            <li>Ayudar a mi mamá</li>
-            <li>Hablar más idiomas</li>
-            <li>Estudiar varias carreras</li>
-        </ol>
-        <div>
-            <img src="img/business-3695073_1280.jpg" style="margin-left: -20px;" width="190" alt="fotodeejemplo2">
+        <div class="tarjeta">
+          <img src="https://www.themoviedb.org/t/p/original/xMGWSdT0mcqzentuImFmVhkEgAQ.jpg" alt="goat">
+          <h3>Mi papa</h3>
+          <p class="descripcion">En esta imagen se puede apreciar una fotogracia sobre mi querido progenitor, obviamente y descaradamente, los imbeciles envidicios diran que no es mi padre, puede tragarse mi pene todos y su maldita raza </p>
+          <p class="precio">ola te amo uwu miamor </p>
+          <button class="btn-carrito">Añadir al carrito</button>
         </div>
-    </div>
+
+        <div class="tarjeta">
+          <img src="https://static01.nyt.com/images/2017/11/05/world/africa/apes-slide-JUIE/apes-slide-JUIE-videoSixteenByNineJumbo1600.jpg" alt="Auto4">
+          <h3> Amigo, quien putas pelea por generos musicales en 2025💀💀, tienes que ser imbecil</h3>
+          <p class="descripcion">Asie como la tegnologia esta avanzando, obselve ete nuevo robos como la ayuda en todo lo que ella necesita</p>
+          <p class="precio">$veinte mil dolal</p>
+          <button class="btn-carrito">Añadir al carrito</button>
+        </div>
+
+      </div>
     </section>
+  </main>
 
-    <section id="actividades">
-        <h2>Actividades</h2>
-        <table>
-            <tr>
-                <th>Lunes</th>
-                <th>Martes</th>
-                <th>Miércoles</th>
-                <th>Jueves</th>
-                <th>Viernes</th>
-                <th>Sábado</th>
-            
-                <th>Domingo</th>
-            </tr>
-            <tr>
-                <td>Ir a la biblioteca</td>
-                <td>Escuchar música</td>
-                <td>Ir al cine</td>
-                <td>Ciclismo</td>
-                <td>Baloncesto</td>
-                <td>Practicar inglés</td>
-                <td>Jugar un videojuego</td>
-            </tr>
-        </table>
-    </section>
-
-    <section id="contacto">
-        <h2>Formulario de Contacto</h2>
-        <form>
-            <label>Digite su nombre:</label>
-            <input type="text" name="nombre" required><br>
-
-            <label>Digite su documento:</label>
-            <input type="number" name="documento" required><br>
-
-            <label>Digite su correo electrónico:</label>
-            <input type="email" name="correo" required><br>
-
-            <label>Digite su contraseña:</label>
-            <input type="password" name="contraseña" required><br>
-
-            <label>Ciudad:</label>
-            <select required>
-                <option disabled selected>Selecciona ciudad</option>
-                <option>Valledupar</option>
-                <option>Bogotá</option>
-                <option>Barranquilla</option>
-                <option>Medellín</option>
-            </select><br>
-
-            <input type="submit" value="Enviar">
-        </form>
-    </section>
+  <footer>
+    <p>&copy; 2025 Tienda semen de todos los derechos epekjewffk  jajajaksjksjsjsjfjhfrhjhjfhjrjbhswjkej ayuda</p>
+  </footer>
 </body>
 </html>
